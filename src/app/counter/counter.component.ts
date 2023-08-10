@@ -12,8 +12,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class CounterComponent {
-    constructor() { }
-    public title: string = 'Hola Mundo';
+    
     public counter: number = 10;
   
     increasyBy( value: number ):void {
